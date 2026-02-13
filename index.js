@@ -1,1 +1,1 @@
-console.log("App started successfully!");
+console.log("App started successfully! 2.0");
