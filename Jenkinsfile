@@ -5,15 +5,15 @@ pipeline {
         stage("build") {
             steps {
                 echo "Building project..."
-                sh "npm install"
-                sh "npm run build"
+                bat "npm install"
+                bat "npm run build"
             }
         }
 
         stage("test") {
             steps {
                 echo "Running tests..."
-                sh "npm test"
+                bat "npm test"
             }
         }
 
